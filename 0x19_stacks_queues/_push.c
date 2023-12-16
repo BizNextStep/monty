@@ -33,4 +33,7 @@ void _push(stack_t **stack, unsigned int line_number)
 	if (*stack)
 		(*stack)->prev = new_node;
 	*stack = new_node;
+
+	printf("Pushed %d to the stack\n", num);
+
 }

@@ -1,4 +1,4 @@
-push 42
-push 10
-push 7
-pall
+Push 42
+Push 10
+Push 7
+Pall
